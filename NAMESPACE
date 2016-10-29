@@ -1,0 +1,9 @@
+S3method(print, hybrid)
+S3method(summary, hybrid)
+S3method(print, sampselect)
+S3method(summary, sampselect)
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "binomial", "coef", "cor", "dnorm", "glm", "lm",
+             "model.frame", "model.matrix", "optim", "pnorm",
+             "residuals", "sd")
+import(mvtnorm)
